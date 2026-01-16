@@ -3,7 +3,7 @@ import { NextResponse } from 'next/server';
 import { GoogleGenerativeAI } from '@google/generative-ai';
 
 // Initialize Gemini AI with your API key
-const genAI = new GoogleGenerativeAI(process.env.GOOGLE_API_KEY || 'AIzaSyAf6GRp_SyZmOQt3jHaVXWyMViAJxiuovg');
+const genAI = new GoogleGenerativeAI(process.env.GOOGLE_API_KEY );
 
 // Use 1.5-flash (Standard for Resume analysis)
 const MODEL_NAME = process.env.NEXT_PUBLIC_MODEL_NAME || 'gemini-1.5-flash';
