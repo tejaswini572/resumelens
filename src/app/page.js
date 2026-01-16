@@ -134,7 +134,7 @@ export default function Home() {
                 <textarea
                   value={input}
                   onChange={(e) => setInput(e.target.value)}
-                  placeholder="Paste text here..."
+                  placeholder="Enter job description or any other prompt..."
                   className="w-full h-64 p-4 bg-slate-50 rounded-xl border-none focus:ring-2 focus:ring-black/5 resize-none"
                 />
               ) : (
